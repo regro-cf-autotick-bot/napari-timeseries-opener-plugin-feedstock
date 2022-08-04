@@ -1,5 +1,5 @@
 {% set name = "napari-timeseries-opener-plugin" %}
-{% set version = "0.1.2" %}
+{% set version = "0.1.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/napari-timeseries-opener-plugin-{{ version }}.tar.gz
-  sha256: 0279d84ec7cb754123e1b9563df8e5706b56a43a160fb1427afe0fb3ba0c02ce
+  sha256: 3e63a0c712c07afb0cf37af1f6890533b8c9e73e75be37f0b5427c56db13daf3
 
 build:
   noarch: python
